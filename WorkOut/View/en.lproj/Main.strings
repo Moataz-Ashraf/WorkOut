@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "4V1-i7-eFb"; */
+"4V1-i7-eFb.normalTitle" = "Register";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "9hf-Th-x1x"; */
+"9hf-Th-x1x.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "UserName"; ObjectID = "Axi-tD-e2R"; */
+"Axi-tD-e2R.placeholder" = "UserName";
+
+/* Class = "UITextField"; placeholder = "UserName"; ObjectID = "I0S-HM-Q4p"; */
+"I0S-HM-Q4p.placeholder" = "UserName";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "IHi-mb-JeM"; */
+"IHi-mb-JeM.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "IZI-dh-r2D"; */
+"IZI-dh-r2D.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "log in"; ObjectID = "V75-Wc-d5Y"; */
+"V75-Wc-d5Y.normalTitle" = "log in";
+
+/* Class = "UITextField"; placeholder = "E-Mail"; ObjectID = "YGK-6C-q1Z"; */
+"YGK-6C-q1Z.placeholder" = "E-Mail";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bk6-5y-spz"; */
+"bk6-5y-spz.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "LogIn"; ObjectID = "mOo-SX-Nah"; */
+"mOo-SX-Nah.normalTitle" = "LogIn";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "wZw-Ff-PWq"; */
+"wZw-Ff-PWq.title" = "Home";

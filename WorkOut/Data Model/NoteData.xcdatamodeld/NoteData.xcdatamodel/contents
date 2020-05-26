@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G1012" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Notes" representedClassName="Notes" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="noteR" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Users" inverseName="userR" inverseEntity="Users" syncable="YES"/>
+        <relationship name="notesR" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SubNote" inverseName="subNoteR" inverseEntity="SubNote" syncable="YES"/>
+    </entity>
+    <entity name="SubNote" representedClassName="SubNote" syncable="YES" codeGenerationType="class">
+        <attribute name="done" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="subNoteR" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Notes" inverseName="notesR" inverseEntity="Notes" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="eMail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" attributeType="String" syncable="YES"/>
+        <relationship name="userR" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Notes" inverseName="noteR" inverseEntity="Notes" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="userName"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Notes" positionX="-18039.92578125" positionY="-8619.9765625" width="128" height="103"/>
+        <element name="SubNote" positionX="-17811" positionY="-8550" width="128" height="88"/>
+        <element name="Users" positionX="-18277.9765625" positionY="-8552.9296875" width="128" height="103"/>
+    </elements>
+</model>
